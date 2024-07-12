@@ -183,7 +183,7 @@ public class IssueServiceImpl implements IssueService {
         if(issue.isEmpty())throw new IssueException("issue not exist");
 
         issue.get().setAssignee(user);
-        notifyAssignee(user.getEmail(),"New Issue Assigned To You","A new issue has been assigned to you. Login to your account to start contributing, Happy Coding!!");
+        notifyAssignee(user.getEmail(),"New Issue Assigned To You","A new issue has been assigned to you. Login to your account to start contributing, Happy Coding!!!");
         return issueRepository.save(issue.get());
 
 
