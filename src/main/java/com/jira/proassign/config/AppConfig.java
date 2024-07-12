@@ -49,7 +49,7 @@ public class AppConfig {
                 cfg.setAllowedOrigins(Arrays.asList(
                         "http://localhost:3000",
                         "http://localhost:5173",
-                        "https://project-management-react-plum.vercel.app"));
+                        "https://proassign-jitesh-raghavs-projects.vercel.app/"));
                 cfg.setAllowedMethods(Collections.singletonList("*"));
                 cfg.setAllowCredentials(true);
                 cfg.setAllowedHeaders(Collections.singletonList("*"));
