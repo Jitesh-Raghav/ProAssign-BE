@@ -21,8 +21,8 @@ public class EmailService {
         MimeMessageHelper helper = new MimeMessageHelper(mimeMessage, "utf-8");
 
 
-        String subject = "Join Project Team Invitation";
-        String text = "Click the link to join the project team and start contributing: " + link;
+        String subject = "Project Team Invitation";
+        String text = "Click on the link to join the project team and start contributing: " + link;
 
         helper.setSubject(subject);
         helper.setText(text, true);
