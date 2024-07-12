@@ -23,6 +23,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
+@CrossOrigin(origins = "https://proassign-jitesh-raghavs-projects.vercel.app")
 @RequestMapping("/api/projects")
 public class ProjectController {
 

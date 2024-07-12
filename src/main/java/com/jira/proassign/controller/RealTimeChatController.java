@@ -8,9 +8,11 @@ import org.springframework.messaging.handler.annotation.DestinationVariable;
 import org.springframework.messaging.handler.annotation.MessageMapping;
 import org.springframework.messaging.handler.annotation.Payload;
 import org.springframework.messaging.simp.SimpMessagingTemplate;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
+@CrossOrigin(origins = "https://proassign-jitesh-raghavs-projects.vercel.app")
 public class RealTimeChatController {
     @Autowired
     private SimpMessagingTemplate simpMessagingTemplate;

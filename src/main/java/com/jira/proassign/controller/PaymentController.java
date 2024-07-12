@@ -17,6 +17,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
+@CrossOrigin(origins = "https://proassign-jitesh-raghavs-projects.vercel.app")
 @RequestMapping("/api")
 public class PaymentController {
 
