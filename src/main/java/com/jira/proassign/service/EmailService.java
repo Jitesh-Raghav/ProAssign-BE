@@ -22,7 +22,7 @@ public class EmailService {
 
 
         String subject = "Join Project Team Invitation";
-        String text = "Click the link to join the project team: " + link;
+        String text = "Click the link to join the project team and start working: " + link;
 
         helper.setSubject(subject);
         helper.setText(text, true);
