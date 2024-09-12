@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@CrossOrigin(origins = "https://proassign-jitesh-raghavs-projects.vercel.app")
+@CrossOrigin(origins = "https://proassign.vercel.app/")
 @RequestMapping("/api/comments")
 public class CommentController {
 

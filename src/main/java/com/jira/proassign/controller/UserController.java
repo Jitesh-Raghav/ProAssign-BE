@@ -10,7 +10,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@CrossOrigin(origins = "https://proassign-jitesh-raghavs-projects.vercel.app")
+@CrossOrigin(origins = "https://proassign.vercel.app/")
 public class UserController {
 
 

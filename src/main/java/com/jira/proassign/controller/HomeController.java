@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@CrossOrigin(origins = "https://proassign-jitesh-raghavs-projects.vercel.app")
+@CrossOrigin(origins = "https://proassign.vercel.app/")
 public class HomeController {
 
     @GetMapping("")

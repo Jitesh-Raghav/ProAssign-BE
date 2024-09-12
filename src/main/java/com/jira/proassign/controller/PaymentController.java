@@ -17,7 +17,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@CrossOrigin(origins = "https://proassign-jitesh-raghavs-projects.vercel.app")
+@CrossOrigin(origins = "https://proassign.vercel.app/")
 @RequestMapping("/api")
 public class PaymentController {
 
@@ -76,8 +76,8 @@ public class PaymentController {
             paymentLinkRequest.put("reminder_enable",true);
 
             // Set the callback URL and method
-            paymentLinkRequest.put("callback_url","https://proassign-jitesh-raghavs-projects.vercel.app/upgrade_plan/success?planType="+planType);
-//            paymentLinkRequest.put("callback_url","http://localhost:5173/upgrade_plan/success?planType="+planType);
+           // paymentLinkRequest.put("callback_url","https://proassign-jitesh-raghavs-projects.vercel.app/upgrade_plan/success?planType="+planType);
+            paymentLinkRequest.put("callback_url","http://localhost:5173/upgrade_plan/success?planType="+planType);
             paymentLinkRequest.put("callback_method","get");
 
             // Create the payment link using the paymentLink.create() method

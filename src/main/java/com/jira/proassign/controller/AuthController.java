@@ -24,7 +24,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@CrossOrigin(origins = "https://proassign-jitesh-raghavs-projects.vercel.app")
+@CrossOrigin(origins = "https://proassign.vercel.app/")
 @RequestMapping("/auth")
 public class AuthController {
 
