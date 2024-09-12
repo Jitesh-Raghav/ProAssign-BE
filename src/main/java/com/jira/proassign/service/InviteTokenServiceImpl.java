@@ -31,7 +31,7 @@ public class InviteTokenServiceImpl implements InvitationService {
 
 
     //    String invitationLink = "https://proassign-jitesh-raghavs-projects.vercel.app/accept_invitation?token=" + invitationToken;
-        String invitationLink = "http://localhost:5173/accept_invitation?token=" + invitationToken;
+        String invitationLink = "https://proassign.vercel.app/accept_invitation?token=" + invitationToken;
         emailService.sendEmailWithToken(email, invitationLink);
 
     }
